@@ -1,0 +1,18 @@
+{
+  "name": "webpack-learn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "前端工程化配置学习",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suxue",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
