@@ -15,11 +15,6 @@ module.exports = {
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ],
-    devServer: {
-        contentBase: './dist',
-        hot:true
-    },
-    devtool: 'inline-source-map',
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
